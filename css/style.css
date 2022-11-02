@@ -1,0 +1,158 @@
+*{
+   
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.continer {
+    /* background: #2b4f71; */
+    /* background-image: url(../img/11\ \(1\).jpg); */
+    background-image: url(../img/pexels-roberto-nickson-2559941.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .img{
+	width: 150px;
+    height: 150px;
+    margin-top: -18px;
+    margin-left: 87px;
+    margin-bottom: 60px;
+    border-radius: 50%;
+    opacity: 0.7;
+  }
+  .img:hover{
+	opacity: 1;
+  }
+.screen-1 {
+	background-color: #c9cfdf;
+	
+	padding: 2em;
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+	border-radius: 30px;
+	box-shadow: 0 0 2em #657a97;
+	gap: 2em;
+  }
+  
+  .screen-1 .logo {
+	margin-top: -3em;
+  }
+  .screen-1 .email {
+	background: #d8d0f7;
+    box-shadow: 0 0 2em #2b4f71;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    border-radius: 20px;
+    color: #044750;
+    margin-top: -4em;
+    width: 320px;
+  }
+  .screen-1 .email input {
+	outline: none;
+	border: none;
+  }
+  .screen-1 .email input::-moz-placeholder {
+	color: #044750;
+	font-size: 0.9em;
+  }
+  .screen-1 .email input:-ms-input-placeholder {
+	color:#044750;
+	font-size: 0.9em;
+  }
+  .screen-1 .email input::placeholder {
+	color:  #044750;
+	font-size: 1em;
+  }
+  .screen-1 .email ion-icon {
+	color: #4d4d4d;
+	margin-bottom: -0.2em;
+  }
+  .screen-1 .password {
+	background: #d8d0f7;
+    box-shadow: 0 0 2em #2b4f71;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    border-radius: 20px;
+    color: #044750;
+    margin-top: 1em;
+    width: 320px;
+	padding: 1em;
+
+  }
+  .screen-1 .password input {
+	outline: none;
+	border: none;
+  }
+  
+  .screen-1 .password input::-moz-placeholder {
+	color: #044750;
+	font-size: 1.5em;
+  }
+  .screen-1 .password input:-ms-input-placeholder {
+	color: #044750;
+	font-size: 1.5em;
+  }
+  .screen-1 .password input::placeholder {
+	color: #044750;
+	font-size: 1.5em;
+  }
+  .screen-1 .password ion-icon {
+	color: #4d4d4d;
+	margin-bottom: -0.2em;
+  }
+  .screen-1 .password .show-hide {
+	margin-right: -5em;
+  }
+  .screen-1 .login {
+	    padding: 1em;
+    background: #2b4f71;
+    color: #d8d0f7;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    width: 100px;
+    margin-left: 100px;
+    box-shadow: 0 0 2em #2855cdf2;
+  }
+  .screen-1 .footer {
+	display: flex;
+	font-size: 0.7em;
+	color: #5e5e5e;
+	gap: 14em;
+	padding-bottom: 10em;
+  }
+  .screen-1 .footer span {
+	cursor: pointer;
+  }
+  
+  button {
+	cursor: pointer;
+  }
+  .label-1{
+	color:#162f46;
+  }
+  .span-icon{
+	color:#162f46;
+	float: right;
+	font-weight: bold;
+	text-decoration: none;
+  }
+  .pas{
+	background-color:#d8d0f7 ;
+  }
+  h4{
+	font-weight: 600;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	margin: auto;
+	padding: 10px;
+  }
+  
